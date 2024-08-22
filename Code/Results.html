@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Medical Diagnosis - Results</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <script>
+        setTimeout(() => {document.querySelector(".loader").classList.add("loader--hidden")}, 3750);
+    </script>
+</head>
+<body>
+    <div class="loader"></div>
+    <nav id="nav-bar">
+        <ul>
+            <li>Results</li>
+        </ul>
+    </nav>
+    <p class="results">1st most probable disease: Bronchitis - Probability: 82.35%</p>
+    <p class="results">2nd most probable disease: Upper Respiratory Infection - Probability: 27.27%</p>
+    <p class="results">3rd most probable disease: Pneumonia - Probability: 26.92%</p>
+    <button class="symptoms"><a href='AI Medical Diagnosis.html'>Return to Symptoms page</a></button>
+    <script src="Custom Select.js"></script>
+    <py-script src="Jaccard similarity.py"></py-script>
+    <img src="Personal Project_logo_full.png" alt="Project_logo">
+</body>
